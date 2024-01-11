@@ -1,0 +1,56 @@
+body {
+    background-image: url('shooting-star-2024127_1920.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-container {
+  backdrop-filter: blur(5px);
+  background-color: rgba(107, 133, 145, 0.24);
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+input[type="text"],
+input[type="password"],
+
+input{
+  width: 97%;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 5px;
+  padding: 5px;
+}
+
+button {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+button {
+  background-color: #003166;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #000e1d;
+}
+p.form-toggle {
+  margin-top: 10px;
+}
+form h2{
+  color: #fff
+}
+form a {
+  color: #fff;
+}
